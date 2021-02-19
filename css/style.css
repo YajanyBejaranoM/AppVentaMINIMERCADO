@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: Arial ;
+    font-size: 25pt;
+    width: 100%;
+    letter-spacing: 1px;
+    background: #2980b9;
+    padding: 15px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+#container{
+    background:#E5E7E9  ;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container form{
+    background: #FFF;
+    width: 500px;
+    padding: 10px;
+}
+
+#container form img{
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+}
+
+#container form input{
+    width: 90%;
+    padding: 5px ;
+    font-size: 16pt;
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+ .aa{
+    text-align: center;
+}
